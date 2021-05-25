@@ -1,0 +1,36 @@
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center">
+    <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%">
+      <div class="below-line-green">
+        <mat-card>
+          <mat-card-header fxLayoutAlign="center">
+            <span>
+              <mat-icon class="color-green">phone</mat-icon>
+            </span>
+            <mat-card-title><b>Phone</b></mat-card-title>
+          </mat-card-header>
+          <mat-card-content fxLayoutAlign="center">
+            <p class="font-weight-lighter">+91-76390-78641</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+    <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%">
+      <div class="below-line-blue">
+        <mat-card>
+          <mat-card-header fxLayoutAlign="center">
+            <span>
+              <mat-icon class="color-blue">email</mat-icon>
+            </span>
+            <mat-card-title><b>Email</b></mat-card-title>
+          </mat-card-header>
+          <mat-card-content fxLayoutAlign="center">
+            <p class="font-weight-lighter">
+              osaimar19@gmail.com
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
