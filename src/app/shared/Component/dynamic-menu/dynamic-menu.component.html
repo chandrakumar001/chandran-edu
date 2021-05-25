@@ -1,9 +1,7 @@
 <mat-toolbar fxLayout="row" class="background-color-white below-nav-color">
   <!-- fxFlex -->
   <a mat-button href="#">
-    <img
-      src="https://raw.githubusercontent.com/chandrakumar001/ms-person/7a2a81b61559a8b398cf0f137afc0c8fc3f6ac66/logo-img-logo.svg"
-      alt="ChandranEdu" width="26" height="26" style="vertical-align:middle" />
+    <img src="assets/logo/logo-img.svg" alt="ChandranEdu" width="26" height="26" style="vertical-align:middle" />
   </a>
   <span class="example-spacer"></span>
   <a mat-button *ngFor="let item of menuItems" [routerLink]=item.route [routerLinkActive]="['active']" fxHide.xs>
